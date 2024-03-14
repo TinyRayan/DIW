@@ -28,6 +28,7 @@
  #color_navlink:hover{
   text-decoration: underline;
  } #color_navlink{
+  filter: drop-shadow(0 0 0.15rem black);
   color: whitesmoke;
   text-decoration: none;
  }
@@ -56,6 +57,7 @@
 
 
  .btn{
+  filter: drop-shadow(0 0 0.25rem black);
  background-color: #970747; color: white;
  transition: all 0.25s
  }.btn:hover{
@@ -96,3 +98,45 @@
 textarea {
   resize: none;
 }
+
+
+
+
+
+
+
+/* FORMULAIRE */
+
+.invalid{
+  border: 3px solid red;
+}
+
+.invalid::placeholder {
+  color: red; /* Couleur rouge pour le texte du placeholder */
+}
+
+#nom_form{
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+#prenom_form{
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+#email_form{
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+#phone_form{
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+#address_form{
+  filter: drop-shadow(0 0 0.25rem black);
+}
+
+.form-label{
+  filter: drop-shadow(0rem 0rem 0.15rem #ffffff);
+}
+
+/*  FORMULAIRE */
