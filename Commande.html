@@ -95,36 +95,42 @@
       
       </div>
       
-      <div class="container-fluid mt-5">     
-        <form class="row g-3 d-flex justify-content-center " action="#" method="#">
-            <div class="col-lg-5 col-md-8 col-10">
-              <label id="whiteshadow" for="nom" class="form-label fs-5 fw-bold">Nom</label>
-              <input id="blackshadow" type="email" class="form-control" id="nom" placeholder="Gand">
-            </div>
-            
-            <div class="col-lg-5 col-md-8 col-10">
-              <label id="whiteshadow" for="prenom" class="form-label fs-5 fw-bold">Prénom</label>
-              <input id="blackshadow" type="password" class="form-control" id="prenom" placeholder="Edward">
-            </div>
-
-            <div class="col-lg-5 col-md-8 col-10">
-              <label id="whiteshadow" for="mail" class="form-label fs-5 fw-bold">Email</label>
-              <input id="blackshadow" type="text" class="form-control" id="mail" placeholder="exemple@gmail.com">
-            </div>
-
-            <div class="col-lg-5 col-md-8 col-10">
-              <label id="whiteshadow" for="téléphone" class="form-label fs-5 fw-bold">Téléphone</label>
-              <input id="blackshadow" type="text" class="form-control" id="téléphone" placeholder="Votre numéro de téléphone!">
-            </div>
-            </form>
+      <div class="container-fluid mt-5">
+        <form class="row g-3 d-flex justify-content-center "method="post" id="form">
+          <div class="col-lg-5 col-md-8 col-10">
+            <label for="name" class="form-label fs-5 fw-bold">Nom</label>
+            <input  type="text" class="form-control" id="nom_form" name="name" placeholder="Votre nom">
           </div>
 
-          <div class="container-fluid mt-5 d-flex justify-content-center ">
-            <div class="col-10 col-md-8 col-lg-10">
-                <label id="whiteshadow" for="addresse" class="form-label fs-5 fw-bold">Entrez votre addresse !</label>
-                <textarea id="blackshadow" type="text" class="form-control " id="addresse" cols="30" rows="5"></textarea>
-            </div>
+          <div class="col-lg-5 col-md-8 col-10">
+            <label for="firstname" class="form-label fs-5 fw-bold">Prénom</label>
+            <input  type="text" class="form-control" id="prenom_form" name="prenom" placeholder="Votre prénom">
           </div>
+
+          <div class="col-lg-5 col-md-8 col-10">
+            <label for="email" class="form-label fs-5 fw-bold">Email</label>
+            <input  type="email" class="form-control" id="email_form" name="email" placeholder="exemple@gmail.com">
+          </div>
+
+         <div class="col-lg-5 col-md-8 col-10">
+            <label for="phone" class="form-label fs-5 fw-bold">Téléphone</label>
+            <input method="post" type="text" class="form-control" id="phone_form" name="phone" placeholder="Votre numéro de téléphone!">
+          </div>
+        </form>
+      </div>
+ 
+      <div class="container-fluid mt-5 d-flex justify-content-center ">
+        <div class="col-10 col-md-8 col-lg-10">
+          <label for="address" class="form-label fs-5 fw-bold">Entrez votre addresse !</label>
+          <textarea class="form-control" id="address_form" cols="30" rows="5" name="address"></textarea>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-5">
+        <div class="col-12 col-md-12 col-lg-12 text-center">
+          <button id="bouton" type="submit" class="btn btn-lg w-auto">Confirmer</button>
+        </div>
+      </div>
           
     </main>
 
@@ -183,11 +189,13 @@
     </div>
     
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-  <script src="Asset/javascript/json.js"></script>
+    <script src="Asset/javascript/json.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"></script>
+    <script src="Asset/javascript/jquery.js"></script>
 </body>
 
 </html>
