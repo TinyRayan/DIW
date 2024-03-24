@@ -1,1 +1,1 @@
-https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_slide_toggle
+I NEED TO CREATE A SSEARCH BAR USING THE JSON DATA TO SHOW DISHES OR CATEGORIES :=)
