@@ -49,11 +49,20 @@
   "active": "Yes"
  }
 ],
+
+
+
+
+
+
+
+
+
 "plat":[
  {
   "id_plat": 4,
   "libelle": "District Burger",
-  "description": "Burger composé d'un bun's du boulanger, deux steaks de 80g (origine française), de deux tranches poitrine de porc fumée, de deux tranches cheddar affiné, salade et oignons confits. .",
+  "description": "Burger composé d'un bun's du boulanger, deux steaks de 80g (origine française), de deux tranches poitrine de porc fumée, de deux tranches cheddar affiné, salade et oignons confits .",
   "prix": 8,
   "image": "Asset/img/IMAGES/images_the_district/food/hamburger.jpg",
   "id_categorie": 5,

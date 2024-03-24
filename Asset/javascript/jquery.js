@@ -62,7 +62,15 @@ $(document).ready(function () {
                 $("#phone_form").removeClass('invalid'); 
             }
 
+            const addresse = $("#addresse_form").val()
 
+        if (addresse === ""){
+            envoi = false ;
+            $("#addresse_form").attr("placeholder" , "Tu es censé écrire quelque chose ici ... je dis sa comme ça ^^ " )
+            $("#addresse_form").addClass('invalid');
+        } else {
+            $("#addresse_form").removeClass('invalid');
+        }
             
 
         // Si tout est valide, soumettre le formulaire
@@ -78,13 +86,13 @@ $(document).ready(function () {
       
         if (envoi) {
       
-          alert("Form will be sent.");
+          alert("Le Formulaire est envoyé.");
       
           $("#myForm").submit();
       
         } else {
       
-          alert("Form will not be sent.");
+          alert("Le Formulaire n'a pas etait envoyé.");
       
         }
       
